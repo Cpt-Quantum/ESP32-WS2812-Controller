@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri /home/quant/Documents/Electronics-Projects/KiCad_Libraries/ESP32/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
+  (lib (name 3.3V-reg)(type Legacy)(uri ${KIPRJMOD}/3.3V-reg.lib)(options "")(descr ""))
+)
