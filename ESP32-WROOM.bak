@@ -194,4 +194,22 @@ EN
 Wire Wire Line
 	4100 3050 4050 3050
 Connection ~ 4100 3050
+Text Notes 5150 5100 0    50   ~ 0
+Use of these\npins is not\nrecommended.
+Wire Notes Line
+	5100 5100 5700 5100
+Wire Notes Line
+	5700 5100 5700 4600
+Wire Notes Line
+	5100 4600 5100 5100
+Text Notes 6500 4300 0    50   ~ 0
+This pin is used for selecting boot mode.
+Text Notes 6600 3300 0    50   ~ 0
+These pins are used for programming in UART mode.
+Wire Notes Line
+	8150 4200 8150 4350
+Wire Notes Line
+	6450 4200 8150 4200
+Wire Notes Line
+	6450 4350 8150 4350
 $EndSCHEMATC
