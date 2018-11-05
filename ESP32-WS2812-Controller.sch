@@ -457,7 +457,7 @@ U 1 1 5BDAB345
 P 7650 3250
 F 0 "J3" H 7730 3242 50  0000 L CNN
 F 1 "Conn_01x06" H 7730 3151 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 7650 3250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7650 3250 50  0001 C CNN
 F 3 "~" H 7650 3250 50  0001 C CNN
 	1    7650 3250
 	1    0    0    -1  
