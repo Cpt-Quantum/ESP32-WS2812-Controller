@@ -628,7 +628,6 @@ NoConn ~ 5450 3950
 NoConn ~ 5450 4050
 NoConn ~ 5450 4150
 NoConn ~ 5450 4350
-NoConn ~ 5450 4250
 NoConn ~ 5450 4450
 NoConn ~ 5450 4550
 NoConn ~ 6900 5000
@@ -720,4 +719,49 @@ Text Label 7550 3450 2    50   ~ 0
 TXD
 Text Label 8050 3450 0    50   ~ 0
 IO0
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 5BE8BF84
+P 4550 4000
+F 0 "J5" H 4470 4317 50  0000 C CNN
+F 1 "Conn_01x03" H 4470 4226 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4550 4000 50  0001 C CNN
+F 3 "~" H 4550 4000 50  0001 C CNN
+	1    4550 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR021
+U 1 1 5BE8C06A
+P 5000 3900
+F 0 "#PWR021" H 5000 3750 50  0001 C CNN
+F 1 "+3V3" H 5015 4073 50  0000 C CNN
+F 2 "" H 5000 3900 50  0001 C CNN
+F 3 "" H 5000 3900 50  0001 C CNN
+	1    5000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5BE8C13E
+P 5100 4000
+F 0 "#PWR022" H 5100 3750 50  0001 C CNN
+F 1 "GND" H 5105 3827 50  0000 C CNN
+F 2 "" H 5100 4000 50  0001 C CNN
+F 3 "" H 5100 4000 50  0001 C CNN
+	1    5100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4250 4950 4250
+Wire Wire Line
+	4950 4250 4950 4100
+Text Label 4950 4250 2    50   ~ 0
+Mic_Input
+Wire Wire Line
+	4750 4100 4950 4100
+Wire Wire Line
+	4750 4000 5100 4000
+Wire Wire Line
+	4750 3900 5000 3900
 $EndSCHEMATC
